@@ -19,7 +19,7 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
   
-  #GET /multiply/:num1/:num2 displays the product of the two numbers in the route
+  #GET /multiply/:num1/:num2 displays the product of 2 numbers in the route
   get "/multiply/:num1/:num2" do
     @num = params[:num]
     ""
