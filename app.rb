@@ -22,7 +22,7 @@ class App < Sinatra::Base
   #GET /multiply/:num1/:num2 displays the product of 2 numbers in the route
   get "/multiply/:num1/:num2" do
     @product = params[:num1] * params[:num2]
-    "The product is #{@products}"
+    "The product is #{@product}"
   end
   
 end
